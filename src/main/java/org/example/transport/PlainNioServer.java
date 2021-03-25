@@ -17,7 +17,8 @@ import java.util.Set;
  * @author Chen Meng
  */
 public class PlainNioServer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        new PlainNioServer().serve(10000);
     }
 
     public void serve(int port) throws IOException {
