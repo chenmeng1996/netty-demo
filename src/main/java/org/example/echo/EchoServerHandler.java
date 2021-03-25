@@ -1,4 +1,4 @@
-package org.example;
+package org.example.echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

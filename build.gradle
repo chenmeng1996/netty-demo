@@ -16,10 +16,10 @@ dependencies {
     compile group: 'io.netty', name: 'netty-all', version: '4.1.60.Final'
 }
 
-shadowJar {
-    manifest{
-        attributes(
-                'Main-Class':'org.example.EchoServer'
-        )
-    }
-}
+//shadowJar {h
+//    manifest{
+//        attributes(
+//                'Main-Class':'org.example.EchoServer'
+//        )
+//    }
+//}
